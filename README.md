@@ -1,9 +1,7 @@
 # Superstore Sales Performance Analysis
-
-## Project Overview
-
-This project involves cleaning, processing, and analyzing the "Superstore" sales dataset to extract actionable insights for business decision-making.
 Link datasets:https://www.kaggle.com/datasets/vivek468/superstore-dataset-final
+## Project Overview
+This project involves cleaning, processing, and analyzing the "Superstore" sales dataset to extract actionable insights for business decision-making.
 
 ## Tools & TechnologiesLanguage: 
 Python (Pandas)
@@ -11,7 +9,6 @@ Database: MySQLLibraries: sqlalchemy, dotenv (for secure configuration managemen
 Environment: Jupyter Notebook 
 
 ## Workflow
-
 Data Acquisition: Used kaggle-api to download the dataset directly.  Cleaning & EDA:Checked for duplicate rows and missing values.
 Standardized column names (lowercase, replaced spaces with underscores).  
 Converted date columns (order_date, ship_date) to datetime objects. 
@@ -21,7 +18,6 @@ Analysis (SQL Queries): Performed queries in superstore.sql.
 Identification of top-performing and underperforming products.  
 
 ## Business Questions
-
 1. Total revenue and profit by region/state.
 2. Average order value (AOV) by category. 
 3. Impact of discounts on profit margins. 
@@ -29,7 +25,6 @@ Identification of top-performing and underperforming products.
 5. Identification of top-performing and underperforming products.
 
 ## Key Analysis Objectives
-
 Business Performance:	
 Determine the state/region generating the highest revenue.
 
@@ -46,8 +41,6 @@ Product Optimization:
 Identify top 5 most profitable and top 5 loss-making products.
 
 ## Project Structure
-
-```text
 superstore_analyst/
 ├── data/
 │   └── raw/                # Contains the raw CSV dataset
