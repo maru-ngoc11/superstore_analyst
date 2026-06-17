@@ -43,12 +43,18 @@ Identify top 5 most profitable and top 5 loss-making products.
 ## Project Structure
 superstore_analyst/
 ├── data/
-│   └── raw/                # Contains the raw CSV dataset
+
+   │   └── raw/                # Contains the raw CSV dataset
+   
 ├── power_bi/
-│   └── superstore_analystic.pbix              # Power BI dashboard files
+
+   │   └── superstore_analystic.pbix # Power BI dashboard files
 ├── sql/
-│   └──superstore.sql                    # Contains superstore.sql for analysis
+
+   │   └──superstore.sql                    # Contains superstore.sql for analysis
+   
 ├── .gitignore              # Files to be excluded from Git
+
 └── superstore_analyst.ipynb # Notebook for data processing
 
 
